@@ -1,0 +1,7 @@
+    <script src="../../assets/vendors/jquery/jquery.min.js"></script>
+    <script src="../../assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/vendors/datatables/js/dataTables.js"></script>
+    <script src="../../assets/vendors/sweetalert/sweetalert-dev.js"></script>
+    <script src="../../assets/js/menuAdmin.js"></script>
+</body>
+</html>

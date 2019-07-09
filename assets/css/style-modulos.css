@@ -1,0 +1,18 @@
+.modulo-frm{
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.body-tab-theme{
+    padding-top: 25px;
+}
+
+.margin-table{
+    margin-left: 130vh;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+} 

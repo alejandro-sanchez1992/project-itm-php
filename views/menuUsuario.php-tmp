@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Iniciar sesión</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../../assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../assets/vendors/sweetalert/sweetalert.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../assets/vendors/datatables/css/dataTables.css">
+    <link href="../../assets/css/style-app.css" rel="stylesheet">
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+        <a class="navbar-brand" href="#"><img class=" img-menu" src="../../assets/img/itm-logo.png" alt=""  >   </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" onclick="menuUsuario.rutas('home')" href="#">Inicio</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" onclick="menuUsuario.rutas('areasConocimiento')" href="#">Áreas de conocimiento</a>
+                </li>
+
+            </ul>
+            <div class="form-inline my-2 my-lg-0">
+
+                <a class="btn btn-outline-secondary my-2 my-sm-0"  target='_blank' href="indexLogin.php">Inicio de sesión</a>
+            </div>
+        </div>
+    </nav>
+    <div class="col-sm-12">
+        <iframe class="scrollbar force-overflow iframe-home " scrolling="yes"  id="Contenedor" >
+        </iframe>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 footer">
+            <span class="text-uppercase">itm institución universitaria</span>
+            <br>
+            <span class="text-uppercase">Calle 73 No. 76A - 354, Vía al Volador Tel: (+574) 440 51 00 - Fax: (+574) 440 51 02</span>
+        </div>
+    </div>
+
+
+    <script src="../../assets/vendors/jquery/jquery.min.js"></script>
+    <script src="../../assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/vendors/datatables/js/dataTables.js"></script>
+    <script src="../../assets/vendors/sweetalert/sweetalert-dev.js"></script>
+    <script src="../../assets/js/menuUsuario.js"></script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+
+
+
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+  padding-left: 250px;
+}
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  /* background: linear-gradient(45deg, #3851a3 20%, rgb(3, 34, 112) 100%) !important; */
+  background: #ffffff;
+  
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.425), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  background-color: #f4f7fa;
+  line-height: 1.42857143 !important;
+  color: #58666e !important;
+}
+
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+
+
+/* Sidebar Styles */
+
+.sidebar-nav li a{
+  color: aliceblue;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li {
+  text-indent: 10px;
+  line-height: 40px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color:#757575;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #757575;
+  background-color: rgb(245, 245, 245);
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav>.sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.sidebar-nav>.sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav>.sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+@media(min-width:768px) {
+  #wrapper {
+    padding-left: 0;
+  }
+  #wrapper.toggled {
+    padding-left: 250px;
+  }
+  #sidebar-wrapper {
+    width: 0;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+  }
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+}
+
+.shadow{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.425), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.shadow {
+    border-radius: 0px;
+    border: 0;
+}
+
+.shadow-li {
+    border-radius: 0px;
+    border: 0;
+}
+
+.shadow-li{
+  box-shadow: 0 2px 5px 0 rgba(73, 71, 71, 0.425), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.shadow-nav{
+  border-radius: 0px;
+  border: 0;  
+  padding-right: 13px;
+  padding-left: 25px;
+  padding-top: 8px;
+  float: le;
+}
+
+.shadow-nav{
+  box-shadow: 0 0px 5px 0 rgba(73, 71, 71, 0.425), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.sidebar-item-theme{
+    background: #ffffff;
+}
+
+.bg-light-theme{
+    background: linear-gradient(45deg, #0288d1 0%, #26c6da 100%);
+    height: 60px;
+}
+/* 
+.btn-theme{
+  background: #ffffff;
+  color: black;
+} */
+
+.body-modulo{
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  background-color: #f4f7fa;
+  line-height: 1.42857143 !important;
+  color: #58666e !important;
+}
+
+.nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  
+}
+
+/* thead{
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  background-color: #3a4651;
+  line-height: 1.42857143 !important;
+  color: #ffffff;
+} */
+
+.btn-outline-light:hover{
+  color: #757575;
+}
+
+.fixed-top-nav-left{
+  margin-top: 60px;
+}
+
+.margin-top-container{
+  margin-top: 60px;
+}
+
+.footer {
+    height: 50px;
+    background: #343a40;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.img-home {
+  -webkit-filter: brightness(80%);
+  filter: brightness(30%);
+  object-fit: cover;
+  width: 100%;
+  height: calc(100vh - 50px);
+}
+
+.iframe-home {
+    padding-top: 78px;
+    position: fixed;    
+    border: none;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.img-menu{
+  height: 52px;
+}
+
+.margin-admin{
+  margin: 0;
+  padding-top: 9px;
+}
